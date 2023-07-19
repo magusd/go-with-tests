@@ -8,3 +8,7 @@ coverage:
 
 benchmark:
 	go test -bench=.
+
+errcheck:
+	#go install github.com/kisielk/errcheck@latest
+	errcheck .
